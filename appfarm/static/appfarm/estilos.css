@@ -1,0 +1,79 @@
+body {
+    background-color: #f1f3f6;
+  }
+.imagenes{
+  width:250px; 
+  height:250px;
+  border-color: black;
+  border-style:solid; 
+  border-width: 1px;
+}
+footer{
+  background-color: #565C55;
+  height: 10rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  text-align: justify;
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  position: absolute;
+  bottom: 0;
+}
+.parrafo{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  size: 12cm;
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+button{
+  border:black;
+  top: 30px;
+  right: 30px;
+  padding: 0.5rem;
+}
+.imgfarmacia{
+  padding-left: 30%;
+  padding-right: 25%;
+}
+.entrada{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+}
+h6{
+  color: black;
+  text-align: center;
+  font-size: small;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pie{
+  width: 50%;
+  padding-left: 5%;
+  color: black;
+}
+ul{
+  color: black;
+}
+.sig{
+  color: black;
+}
+.navbar{
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  color: black;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: black;
+}
+
+.ayuda{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  justify-content: center;
+  padding-left: 20% ;
+  padding-right: 20%;
+  font-size: 20px;
+}
