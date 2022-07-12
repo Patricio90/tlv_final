@@ -1,3 +1,4 @@
+from unicodedata import name
 from .import views 
 from django.urls import path
 from django.conf import settings
@@ -12,5 +13,8 @@ urlpatterns = [
     path('productos/editar_productos', views.editar_producto, name='editar'),
     path('eliminar/<int:id>', views.eliminar, name='eliminar'),
     path('productos/editar/<int:id>', views.editar_producto, name='editar'),
+    path('about/', views.about, name = 'about-appfarm'),
+    path('contacto/',views.contacto, name = 'appfarm-contacto')
 
     ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    
