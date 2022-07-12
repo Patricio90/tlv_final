@@ -5,7 +5,6 @@ class ProductoForm(forms.ModelForm):
     class Meta:
         model = Producto
         fields = ['nombre', 'descripcion', 'categoria', 'precio', 'imagen']
-from django import forms
 
 class ContactForm(forms.Form):
     categoria=forms.ChoiceField(choices=[('pregunta','Pregunta'),('sugerencias','Sugerencias'),('otros','Otros')])
