@@ -77,3 +77,8 @@ ul{
   padding-right: 20%;
   font-size: 20px;
 }
+
+.container{
+  display: flex;
+  justify-content: center;
+ }
