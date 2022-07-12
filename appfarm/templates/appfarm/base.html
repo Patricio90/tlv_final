@@ -26,12 +26,12 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle show" href="#" id="navbarDropdownMenuLink" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="true">
-                                Tienda
+                                Productos
                             </a>
                             <ul class="dropdown-menu show" aria-labelledby="navbarDropdownMenuLink"
                                 data-bs-popper="static">
-                                <li><a class="dropdown-item" href="#">Catalogo</a></li>
-                                <li><a class="dropdown-item" href="#">Carro de compras</a></li>
+                                <li><a class="dropdown-item" href="{% url 'productos' %}">Carga de productos</a></li>
+                                <li><a class="dropdown-item" href="{% url 'lista' %}">Listado de Productos</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -65,12 +65,13 @@
             </div>
         </nav>
     </header>
-    {% block content%}
-
-    {% endblock %}
-
     <div class="container">
-        <footer>
+        {% block content%}
+        {% endblock %}
+    </div>
+    
+    <div class="container">
+       <!-- <footer>
             <p class="pie">&#x2695;&#xfe0f; Nuestro Equipo Farmacias Te Lo Vendo está conformado por especialistas en la
                 materia para brindarles el mejor soporte y experiencia
                 en nuestra plataforna on-line.</p>
@@ -106,7 +107,7 @@
             <center>
                 <p id="Fecha" class="pie"></p>
             </center>
-        </footer>
+        </footer>-->
 </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
