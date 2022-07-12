@@ -1,0 +1,55 @@
+{% extends "appfarm/base.html" %}
+{% load static%}
+{% block content %}
+    <div class="row ">
+        <div class="col-2">
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-5">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="{% static 'img/ampolla.png' %} class="d-block w-100 h-50" alt="ampolla">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="{% static 'img/dosis.png' %}" class="d-block w-100 h-50" alt="dosis">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="{% static 'img/dosis.png' %}" class="d-block w-100 h-50" alt="vitaminas">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="{% static 'img/mascarillas.png' %}" class="d-block w-100 h-50" alt="mascarillas">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" role="button" href="#carouselExampleControls" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" role="button" href="#carouselExampleControls" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock content %}
