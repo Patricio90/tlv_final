@@ -8,6 +8,9 @@ def inicio(request):
 def about(request):
     return render(request, 'appfarm/about.html')
 
+def carro(request):
+    return render(request, 'appfarm/carro.html')
+
 def contacto(request):
     if request.method=='POST':
         form=ContactForm(request.POST)

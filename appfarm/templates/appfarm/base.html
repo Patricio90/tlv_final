@@ -29,7 +29,7 @@
                             <ul class="dropdown-menu show" aria-labelledby="navbarDropdownMenuLink"
                                 data-bs-popper="static">
                                 <li><a class="dropdown-item" href="{% url 'catalogo' %}">Catalogo</a></li>
-                                <li><a class="dropdown-item" href="#">Carro de compras</a></li>
+                                <li><a class="dropdown-item" href="{% url 'appfarm-carro' %}">Carro de compras</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -72,9 +72,6 @@
 
     <div class="container">
         <footer>
-            <p class="pie">&#x2695;&#xfe0f; Nuestro Equipo Farmacias Te Lo Vendo está conformado por especialistas en la
-                materia para brindarles el mejor soporte y experiencia
-                en nuestra plataforna on-line.</p>
             <h6> &#x2122;&#xfe0f; Te lo vendo S.A. 2022, Santiago de Chile</h6>
             <div class="redes-container d-flex justify-content-center">
                 <p class="sig">Siguenos en:</p>
@@ -101,12 +98,6 @@
                     </svg>
                 </ul>
             </div>
-            <center>
-                <p id="datos" class="pie"></p>
-            </center>
-            <center>
-                <p id="Fecha" class="pie"></p>
-            </center>
         </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
