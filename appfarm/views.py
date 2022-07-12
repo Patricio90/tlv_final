@@ -19,6 +19,9 @@ def listar(request):
     productos = Producto.objects.all()
     return render(request, 'appfarm/lista.html', {'productos': productos})
 
+def carro(request):
+    return render(request, 'appfarm/carro.html')
+
 def crear_producto(request):
     formulario = ProductoForm(request.POST or None, request.FILES or None)
     if formulario.is_valid():

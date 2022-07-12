@@ -14,7 +14,8 @@ urlpatterns = [
     path('eliminar/<int:id>', views.eliminar, name='eliminar'),
     path('productos/editar/<int:id>', views.editar_producto, name='editar'),
     path('about/', views.about, name = 'about-appfarm'),
-    path('contacto/',views.contacto, name = 'appfarm-contacto')
+    path('contacto/',views.contacto, name = 'appfarm-contacto'),
+    path('carro/',views.carro, name ='appfarm-carro')
 
     ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
     
